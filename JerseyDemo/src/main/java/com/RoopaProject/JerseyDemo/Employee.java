@@ -6,6 +6,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Employee {
 
+	public Employee()
+	{
+	}
 	private String empName;
 	private float salary;
 	private int id;
