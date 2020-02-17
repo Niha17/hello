@@ -9,6 +9,8 @@ public class Employee {
 	public Employee()
 	{
 		System.out.println("In default constructor");
+		System.out.println("In default constructor of developer");
+
 	}
 	private String empName;
 	private float salary;
